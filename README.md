@@ -1,2 +1,2 @@
 # License-Plate-Detection
-Using OCR to read licence plates from images and store onto database
+Preprocessed and fed to pytesseract. Cropped license plate images taken as input
