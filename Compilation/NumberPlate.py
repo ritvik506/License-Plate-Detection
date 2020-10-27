@@ -13,7 +13,7 @@ import image_module
 
 
 def main():
-    orig = cv2.imread('gate car\\IMG-4047.JPG')
+    orig = cv2.imread('new_image.png')
     cv2.imshow("original image", orig)
     plate_pic = image_module.image_module(orig)
     prep_img = prep(plate_pic)
